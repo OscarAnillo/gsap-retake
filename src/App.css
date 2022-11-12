@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,4 +8,10 @@
 
 .App {
   text-align: center;
+}
+h1 {
+  font-family: 'Anton', sans-serif;
+}
+p {
+  font-family: 'Dancing Script', cursive;
 }
