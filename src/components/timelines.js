@@ -13,9 +13,30 @@ export default function Timelines() {
       repeat: 1,
       yoyo: true,
     });
-    tl.to(".purple", { y: 200, scale: 2.5, duration: 1 });
-    tl.to(".orange", { y: -200, scale: 2, duration: 1 });
-    tl.to(".red", { x: 200, scale: 3, duration: 1 });
+    tl.to(".purple", {
+      x: 200,
+      scale: 2,
+      rotation: 360,
+      duration: 1,
+      repeat: 1,
+      yoyo: true,
+    });
+    tl.to(".orange", {
+      y: -200,
+      scale: 2,
+      duration: 1,
+      rotation: 180,
+      repeat: 1,
+      yoyo: true,
+    });
+    tl.to(".red", {
+      x: 200,
+      scale: 3,
+      duration: 1,
+      rotation: 180,
+      repeat: 1,
+      yoyo: true,
+    });
   }, []);
 
   return (
