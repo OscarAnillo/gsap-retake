@@ -8,6 +8,11 @@
 
 .App {
   text-align: center;
+  position: relative;
+  height: 100vh;
+}
+.basic {
+  height: 100vh
 }
 h1 {
   font-family: 'Anton', sans-serif;
@@ -16,13 +21,14 @@ p {
   font-family: 'Dancing Script', cursive;
 }
 .main-div {
+  height: 100vh;
+  position: relative;
+}
+.wrapper {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .green, .purple, .orange, .red {
   background-color: green;
