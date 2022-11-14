@@ -15,3 +15,32 @@ h1 {
 p {
   font-family: 'Dancing Script', cursive;
 }
+.main-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.green, .purple, .orange, .red {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+}
+.purple {
+  background-color: purple;
+  height: 50px;
+  width: 50px;
+}
+.orange {
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+}
+.red {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+}
