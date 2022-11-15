@@ -41,7 +41,7 @@ export default function Timelines() {
       yoyo: true,
       ease: "bounce",
     });
-  }, []);
+  }, [tl]);
 
   return (
     <div className="main-div">
